@@ -154,14 +154,15 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <fields>
-        <fullName>Field_Five__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>Field Five</label>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
-    </fields>
+    <label>Demo Object</label>
+    <nameField>
+        <label>Demo Custom  Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Demo Objects</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
     <fields>
         <fullName>Field_One__c</fullName>
         <defaultValue>false</defaultValue>
@@ -190,14 +191,14 @@
         <type>Email</type>
         <unique>false</unique>
     </fields>
-    <label>Demo Object</label>
-    <nameField>
-        <label>Demo Custom  Name</label>
-        <type>Text</type>
-    </nameField>
-    <pluralLabel>Demo Objects</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
+    <fields>
+        <fullName>Field_Five__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Field Five</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
     <validationRules>
         <fullName>DemoValidationRuleOne</fullName>
         <active>true</active>
@@ -208,5 +209,4 @@
 )</errorConditionFormula>
         <errorMessage>Please enter Field two if Field one is checked.</errorMessage>
     </validationRules>
-    <visibility>Public</visibility>
 </CustomObject>
