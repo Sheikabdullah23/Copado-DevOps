@@ -43,6 +43,20 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
+        <actionName>Decline</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Decline</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Decline</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>Delete</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -53,6 +67,20 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>DeleteSeries</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>DeleteSeries</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>DeleteSeries</actionName>
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
@@ -71,58 +99,44 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>List</actionName>
+        <actionName>NewEvent</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>List</actionName>
+        <actionName>NewEvent</actionName>
         <formFactor>Large</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>List</actionName>
+        <actionName>NewEvent</actionName>
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>New</actionName>
+        <actionName>NewSfdcEvent</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>New</actionName>
+        <actionName>NewSfdcEvent</actionName>
         <formFactor>Large</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>New</actionName>
+        <actionName>NewSfdcEvent</actionName>
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>SaveEdit</actionName>
+        <actionName>Today</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>SaveEdit</actionName>
+        <actionName>Today</actionName>
         <formFactor>Large</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>SaveEdit</actionName>
-        <formFactor>Small</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Tab</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Tab</actionName>
-        <formFactor>Large</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Tab</actionName>
+        <actionName>Today</actionName>
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
@@ -140,62 +154,90 @@
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
-    <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
-    <deploymentStatus>Deployed</deploymentStatus>
-    <description>create for Demo purpose</description>
-    <enableActivities>false</enableActivities>
-    <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
-    <enableHistory>false</enableHistory>
-    <enableLicensing>false</enableLicensing>
-    <enableReports>false</enableReports>
-    <enableSearch>false</enableSearch>
-    <enableSharing>true</enableSharing>
-    <enableStreamingApi>true</enableStreamingApi>
-    <externalSharingModel>Private</externalSharingModel>
     <fields>
-        <fullName>Field_Five__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>Field Five</label>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
+        <fullName>ActivityDate</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>Field_One__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>Field One</label>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
+        <fullName>ActivityDateTime</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>Field_Two__c</fullName>
-        <externalId>false</externalId>
-        <label>Field Two</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Email</type>
-        <unique>false</unique>
+        <fullName>Attendees</fullName>
     </fields>
-    <label>Demo Object</label>
-    <nameField>
-        <label>Demo Custom  Name</label>
-        <type>Text</type>
-    </nameField>
-    <pluralLabel>Demo Objects</pluralLabel>
+    <fields>
+        <fullName>Description</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>DurationInMinutes</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Email</fullName>
+    </fields>
+    <fields>
+        <fullName>EndDateTime</fullName>
+    </fields>
+    <fields>
+        <fullName>EventSubtype</fullName>
+    </fields>
+    <fields>
+        <fullName>IsAllDayEvent</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsPrivate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsRecurrence2</fullName>
+    </fields>
+    <fields>
+        <fullName>IsReminderSet</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Location</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Phone</fullName>
+    </fields>
+    <fields>
+        <fullName>ShowAs</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>StartDateTime</fullName>
+    </fields>
+    <fields>
+        <fullName>Subject</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>WhatId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>WhoId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
     <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
-    <validationRules>
-        <fullName>DemoValidationRuleOne</fullName>
-        <active>true</active>
-        <description>created for Demo.</description>
-        <errorConditionFormula>AND(
- Field_One__c,
- ISBLANK(Field_Two__c)
-)</errorConditionFormula>
-        <errorMessage>Please enter Field two if Field one is checked.</errorMessage>
-    </validationRules>
-    <visibility>Public</visibility>
+    <sharingModel>Private</sharingModel>
 </CustomObject>
