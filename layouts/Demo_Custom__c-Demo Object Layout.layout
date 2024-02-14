@@ -26,6 +26,10 @@
                 <behavior>Required</behavior>
                 <field>Field_Six__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Field_Seven__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
