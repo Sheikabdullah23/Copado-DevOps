@@ -164,22 +164,13 @@
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
     <fields>
-        <fullName>Field_Nine__c</fullName>
+        <fullName>Field_Ten__c</fullName>
         <externalId>false</externalId>
-        <label>Field Nine</label>
-        <length>10</length>
+        <label>Field Ten</label>
+        <length>20</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Field_Eight__c</fullName>
-        <externalId>false</externalId>
-        <label>Field Eight</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Email</type>
         <unique>false</unique>
     </fields>
 </CustomObject>
