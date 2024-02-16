@@ -38,6 +38,10 @@
                 <behavior>Edit</behavior>
                 <field>Field_Nine__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Field_Ten__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
